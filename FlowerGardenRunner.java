@@ -13,11 +13,7 @@ public class FlowerGardenRunner
 		fg.addFlower( "sunflower" );
 		fg.addFlower( "orchid" );
 		System.out.println( fg );
-		System.out.println( fg.findFlower( "daisy" ) );
-		System.out.println( fg.findFlower( "orchid" ) );
-		System.out.println( fg.getCount( "daisy" ) );
-		System.out.println( fg.getCount( "orchid" ) );
-		System.out.println( fg.getFlower(0));
+
 
 
 

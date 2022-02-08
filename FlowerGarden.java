@@ -28,10 +28,11 @@ public class  FlowerGarden
     }
 	//write get count
 		public String getCount(String input) {
-            int counter = 0;
+            int counter = 00;
             String result = "";
             for (int i = 0; i < flowers.size(); i++) {
-                if (input.equals(flowers.get(i))) {
+                String newString =flowers.get(i).substring(3);
+                if (input.equals(newString)) {
                     result = flowers.get(i);
                     counter++;
                 } else {
